@@ -1,0 +1,93 @@
+.link {
+  text-decoration: none;
+}
+.card-container {
+  background-color: rgba(34, 37, 41, 0.5);
+  margin: 10px;
+  border-radius: 10px;
+  width: 300px;
+  height: 300px;
+  padding: 10px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.title {
+  font-size: 16px;
+  color: rgb(104, 241, 243);
+}
+.phone {
+  font-size: 11px;
+  color: aliceblue;
+}
+.location {
+  font-size: 11px;
+  color: aliceblue;
+  font-weight: bold;
+}
+.type {
+  font-size: 11px;
+  color: aliceblue;
+}
+.salary {
+  font-size: 14px;
+  color: aliceblue;
+}
+.openings {
+  font-size: 14px;
+  color: aliceblue;
+}
+
+.card-container:hover {
+  border: 1px solid rgb(104, 241, 243);
+  box-shadow: 0px 0px 8px 5px #fff;
+}
+
+@media screen and (min-width: 768px) {
+  .link {
+    text-decoration: none;
+  }
+  .card-container {
+    background-color: rgba(34, 37, 41, 0.5);
+    margin: 10px;
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .title {
+    font-size: 19px;
+    color: rgb(104, 241, 243);
+  }
+  .phone {
+    font-size: 13px;
+    color: aliceblue;
+  }
+  .location {
+    font-size: 15px;
+    color: aliceblue;
+    font-weight: bold;
+  }
+  .type {
+    font-size: 15px;
+    color: aliceblue;
+  }
+  .salary {
+    font-size: 20px;
+    color: aliceblue;
+  }
+  .openings {
+    font-size: 20px;
+    color: aliceblue;
+  }
+
+  .card-container:hover {
+    border: 1px solid rgb(104, 241, 243);
+    box-shadow: 0px 0px 8px 5px #fff;
+  }
+}

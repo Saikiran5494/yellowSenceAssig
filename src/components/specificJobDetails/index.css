@@ -1,0 +1,133 @@
+.bg-container {
+  background-color: rgba(12, 20, 20, 0.842);
+  padding: 20px;
+  color: rgb(104, 241, 243);
+}
+.title-company-name-cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.title2 {
+  font-size: 18px;
+  width: 50%;
+}
+.com-name {
+  font-size: 15px;
+  margin-left: 20px;
+}
+.job-category {
+  font-size: 16px;
+}
+.details-card {
+  background-color: aliceblue;
+  width: 100%;
+  margin-top: 30px;
+  border-radius: 10px;
+  color: #000;
+  padding: 10px;
+  font-weight: bold;
+  padding-left: 25px;
+  box-sizing: border-box;
+}
+.role {
+  font-size: 22px;
+  margin-bottom: 13px;
+}
+.location2 {
+  font-size: 22px;
+  margin-bottom: 8px;
+}
+.date {
+  font-size: 17px;
+  margin-bottom: 6px;
+}
+.openings_count {
+  font-size: 17px;
+  margin-bottom: 6px;
+}
+.job-type {
+  font-size: 17px;
+  margin-bottom: 6px;
+}
+.back {
+  padding: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 10px;
+  margin-top: 20px;
+  width: 150px;
+  cursor: pointer;
+  border: 1px solid rgb(104, 241, 243);
+}
+.back:active {
+  scale: 0.95;
+}
+
+@media screen and (min-width: 768px) {
+  .bg-container {
+    background-color: rgba(12, 20, 20, 0.842);
+    padding: 30px;
+    color: rgb(104, 241, 243);
+  }
+  .title-company-name-cont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .title2 {
+    font-size: 27px;
+    width: 70%;
+  }
+  .com-name {
+    font-size: 22px;
+  }
+  .job-category {
+    font-size: 20px;
+  }
+  .details-card {
+    background-color: aliceblue;
+    width: 100%;
+    margin-top: 30px;
+    border-radius: 10px;
+    color: #000;
+    padding: 10px;
+    font-weight: bold;
+    padding-left: 50px;
+    box-sizing: border-box;
+  }
+  .role {
+    font-size: 30px;
+    margin-bottom: 13px;
+  }
+  .location2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+  .date {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+  .openings_count {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+  .job-type {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+  .back {
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-top: 20px;
+    width: 200px;
+    cursor: pointer;
+    border: 1px solid rgb(104, 241, 243);
+  }
+  .back:active {
+    scale: 0.95;
+  }
+}

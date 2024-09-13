@@ -1,0 +1,90 @@
+.app-container {
+  height: 100vh;
+  background-image: url("https://cdn.prod.website-files.com/627a5f477d5ec9079c88f0e2/650446f9d80f690b481ce4d5_ai-replacing-jobs-statistics-small.jpg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.heading-container {
+  width: 300px;
+  justify-self: flex-end;
+  margin-left: 20px;
+  padding: 15px;
+}
+
+.heading {
+  font-size: 25px;
+  color: rgb(38, 77, 88);
+  font-weight: bold;
+}
+.buttons-container {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.button {
+  font-size: 15px;
+  width: 100px;
+  padding: 8px;
+  border-radius: 10px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.button:hover {
+  scale: 1.08;
+  background-color: rgb(38, 77, 88);
+  color: #fff;
+  border: 0;
+}
+.button:active {
+  scale: 0.95;
+}
+
+@media screen and (min-width: 768px) {
+  .app-container {
+    height: 100vh;
+    background-image: url("https://cdn.prod.website-files.com/627a5f477d5ec9079c88f0e2/650446f9d80f690b481ce4d5_ai-replacing-jobs-statistics-small.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .heading-container {
+    width: 500px;
+    justify-self: flex-end;
+    margin-left: 20px;
+    padding: 20px;
+  }
+
+  .heading {
+    font-size: 50px;
+    color: rgb(38, 77, 88);
+  }
+  .buttons-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .button {
+    font-size: 20px;
+    width: 150px;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  .button:hover {
+    scale: 1.08;
+    background-color: rgb(38, 77, 88);
+    color: #fff;
+    border: 0;
+  }
+  .button:active {
+    scale: 0.95;
+  }
+}
