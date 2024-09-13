@@ -1,6 +1,6 @@
 import "./index.css";
 
-const NotFound = () => (
+const Bookmarks = () => (
   <div className="not-found-container">
     <img
       src="https://assets.ccbp.in/frontend/react-js/not-found-blog-img.png"
@@ -11,4 +11,4 @@ const NotFound = () => (
   </div>
 );
 
-export default NotFound;
+export default Bookmarks;
